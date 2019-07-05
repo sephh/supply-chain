@@ -54,8 +54,8 @@
       "signature": "0x61e6982d"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b5061014e806100206000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af610110565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b50565b565b600091905056fea265627a7a72305820fedbd207efac98c2229d74feb640964ccec072f791dd0cdc85f38cec33369d5c64736f6c634300050a0032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af610110565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b50565b565b600091905056fea265627a7a72305820fedbd207efac98c2229d74feb640964ccec072f791dd0cdc85f38cec33369d5c64736f6c634300050a0032",
+  "bytecode": "0x608060405234801561001057600080fd5b5061014e806100206000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af610110565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b50565b565b600091905056fea265627a7a7230582086eb48a0b7db4f5893cfd1d93a2983fca81dbcd1281b823a00f3ef67df67625a64736f6c634300050a0032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af610110565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b50565b565b600091905056fea265627a7a7230582086eb48a0b7db4f5893cfd1d93a2983fca81dbcd1281b823a00f3ef67df67625a64736f6c634300050a0032",
   "sourceMap": "156:1078:1:-;;;412:27;8:9:-1;5:2;;;30:1;27;20:12;5:2;412:27:1;156:1078;;;;;;",
   "deployedSourceMap": "156:1078:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;156:1078:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;751:64;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;751:64:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;883:41;;;:::i;:::-;;620:70;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;620:70:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;751:64;;:::o;883:41::-;:::o;620:70::-;678:4;620:70;;;:::o",
   "source": "pragma solidity >=0.5.1;\n\n// Import the library 'Roles'\nimport \"./Roles.sol\";\n\n// Define a contract 'ConsumerRole' to manage this role - add, remove, check\ncontract ConsumerRole {\n\n  // Define 2 events, one for Adding, and other for Removing\n\n  // Define a struct 'consumers' by inheriting from 'Roles' library, struct Role\n\n  // In the constructor make the address that deploys this contract the 1st consumer\n  constructor() public {\n\n  }\n\n  // Define a modifier that checks to see if msg.sender has the appropriate role\n  modifier onlyConsumer() {\n\n    _;\n  }\n\n  // Define a function 'isConsumer' to check this role\n  function isConsumer(address account) public view returns (bool) {\n\n  }\n\n  // Define a function 'addConsumer' that adds this role\n  function addConsumer(address account) public onlyConsumer {\n\n  }\n\n  // Define a function 'renounceConsumer' to renounce this role\n  function renounceConsumer() public {\n\n  }\n\n  // Define an internal function '_addConsumer' to add this role, called by 'addConsumer'\n  function _addConsumer(address account) internal {\n\n  }\n\n  // Define an internal function '_removeConsumer' to remove this role, called by 'removeConsumer'\n  function _removeConsumer(address account) internal {\n\n  }\n}\n",
@@ -87,7 +87,7 @@
         "id": 59,
         "nodeType": "ImportDirective",
         "scope": 101,
-        "sourceUnit": 386,
+        "sourceUnit": 493,
         "src": "56:21:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -516,7 +516,7 @@
         "id": 59,
         "nodeType": "ImportDirective",
         "scope": 101,
-        "sourceUnit": 386,
+        "sourceUnit": 493,
         "src": "56:21:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -928,10 +928,16 @@
       "links": {},
       "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
       "transactionHash": "0x8240eb5e99b40714f7fc0b5112d51663b989e14b15a8b73de6966c219f577366"
+    },
+    "1562321672345": {
+      "events": {},
+      "links": {},
+      "address": "0x23E2b13b08a22E9eEe431F862eC7A17aB1E99B98",
+      "transactionHash": "0x7137a6e3ddbb708040091bae792c12606e69b8e91892381f1f2ceaa7fe45bc15"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-07-04T10:34:08.528Z",
+  "updatedAt": "2019-07-05T10:14:46.442Z",
   "devdoc": {
     "methods": {}
   },

@@ -89,7 +89,7 @@ contract SupplyChain {
 
 	// Define a modifier that checks if an item.state of a upc is Harvested
 	modifier harvested(uint _upc) {
-		require(items[_upc].itemState == State.Harvested);
+		require(items[_upc].itemState == State.Cached);
 		_;
 	}
 

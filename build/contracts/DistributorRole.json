@@ -54,8 +54,8 @@
       "signature": "0x644241db"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b5061014e806100206000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063644241db146100635780637250e2241461006d5780638f0c86fa146100b1575b600080fd5b61006b61010d565b005b6100af6004803603602081101561008357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010f565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b565b50565b600091905056fea265627a7a72305820c7041e92704ad227c9c08362e7d4f53fe2680decfb459f7f40add6ab9beb9d2a64736f6c634300050a0032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063644241db146100635780637250e2241461006d5780638f0c86fa146100b1575b600080fd5b61006b61010d565b005b6100af6004803603602081101561008357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010f565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b565b50565b600091905056fea265627a7a72305820c7041e92704ad227c9c08362e7d4f53fe2680decfb459f7f40add6ab9beb9d2a64736f6c634300050a0032",
+  "bytecode": "0x608060405234801561001057600080fd5b5061014e806100206000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063644241db146100635780637250e2241461006d5780638f0c86fa146100b1575b600080fd5b61006b61010d565b005b6100af6004803603602081101561008357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010f565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b565b50565b600091905056fea265627a7a723058207aa7dfa8a0dcda108d57d9e0aa5074cf365ba03450dd311de68b43235fc0326664736f6c634300050a0032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063644241db146100635780637250e2241461006d5780638f0c86fa146100b1575b600080fd5b61006b61010d565b005b6100af6004803603602081101561008357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010f565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610112565b604051808215151515815260200191505060405180910390f35b565b50565b600091905056fea265627a7a723058207aa7dfa8a0dcda108d57d9e0aa5074cf365ba03450dd311de68b43235fc0326664736f6c634300050a0032",
   "sourceMap": "159:1129:2:-;;;424:27;8:9:-1;5:2;;;30:1;27;20:12;5:2;424:27:2;159:1129;;;;;;",
   "deployedSourceMap": "159:1129:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;159:1129:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;916:44;;;:::i;:::-;;775:70;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;775:70:2;;;;;;;;;;;;;;;;;;;:::i;:::-;;638:73;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;638:73:2;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;916:44;:::o;775:70::-;;:::o;638:73::-;699:4;638:73;;;:::o",
   "source": "pragma solidity >=0.5.1;\n\n// Import the library 'Roles'\nimport \"./Roles.sol\";\n\n// Define a contract 'DistributorRole' to manage this role - add, remove, check\ncontract DistributorRole {\n\n  // Define 2 events, one for Adding, and other for Removing\n\n  // Define a struct 'distributors' by inheriting from 'Roles' library, struct Role\n\n  // In the constructor make the address that deploys this contract the 1st distributor\n  constructor() public {\n\n  }\n\n  // Define a modifier that checks to see if msg.sender has the appropriate role\n  modifier onlyDistributor() {\n\n    _;\n  }\n\n  // Define a function 'isDistributor' to check this role\n  function isDistributor(address account) public view returns (bool) {\n\n  }\n\n  // Define a function 'addDistributor' that adds this role\n  function addDistributor(address account) public onlyDistributor {\n\n  }\n\n  // Define a function 'renounceDistributor' to renounce this role\n  function renounceDistributor() public {\n\n  }\n\n  // Define an internal function '_addDistributor' to add this role, called by 'addDistributor'\n  function _addDistributor(address account) internal {\n\n  }\n\n  // Define an internal function '_removeDistributor' to remove this role, called by 'removeDistributor'\n  function _removeDistributor(address account) internal {\n\n  }\n}\n",
@@ -87,7 +87,7 @@
         "id": 103,
         "nodeType": "ImportDirective",
         "scope": 145,
-        "sourceUnit": 386,
+        "sourceUnit": 493,
         "src": "56:21:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -516,7 +516,7 @@
         "id": 103,
         "nodeType": "ImportDirective",
         "scope": 145,
-        "sourceUnit": 386,
+        "sourceUnit": 493,
         "src": "56:21:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -928,10 +928,16 @@
       "links": {},
       "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
       "transactionHash": "0xa39d3331a89b91913396cf50297117b25d5fd4ae28fbdcd4e32f383aaea7caba"
+    },
+    "1562321672345": {
+      "events": {},
+      "links": {},
+      "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
+      "transactionHash": "0xf019d9a9ee373a09cc1272ba1623fbeda389b0b1647351b800fa48f3cec210dd"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-07-04T10:34:08.529Z",
+  "updatedAt": "2019-07-05T10:14:46.442Z",
   "devdoc": {
     "methods": {}
   },
