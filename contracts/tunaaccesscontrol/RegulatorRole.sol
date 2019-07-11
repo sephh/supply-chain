@@ -21,7 +21,7 @@ contract RegulatorRole {
 
 	// Define a modifier that checks to see if msg.sender has the appropriate role
 	modifier onlyRegulator() {
-		require(isRegulator(msg.sender));
+		require(isRegulator(msg.sender), 'Invalid Regulator');
 		_;
 	}
 
