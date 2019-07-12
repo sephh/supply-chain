@@ -80,10 +80,10 @@
       "signature": "0x61e6982d"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b506100293361002e640100000000026401000000009004565b6101e2565b61004f81600061009564010000000002610299179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156100cf57600080fd5b6100e88282610150640100000000026401000000009004565b156100f257600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561018b57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b610425806101f16000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af61012b565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b61011633610136565b61011f57600080fd5b61012881610153565b50565b610134336101ad565b565b600061014c82600061020790919063ffffffff16565b9050919050565b61016781600061029990919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b6101c181600061034590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f09860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561024257600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156102d357600080fd5b6102dd8282610207565b156102e757600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141561037f57600080fd5b6103898282610207565b61039257600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fea265627a7a72305820e9ff087ae406a48466a8150390df9b7c86800bf67481ce2c8d0f9dd6147d82a064736f6c634300050a0032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af61012b565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b61011633610136565b61011f57600080fd5b61012881610153565b50565b610134336101ad565b565b600061014c82600061020790919063ffffffff16565b9050919050565b61016781600061029990919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b6101c181600061034590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f09860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561024257600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156102d357600080fd5b6102dd8282610207565b156102e757600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141561037f57600080fd5b6103898282610207565b61039257600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fea265627a7a72305820e9ff087ae406a48466a8150390df9b7c86800bf67481ce2c8d0f9dd6147d82a064736f6c634300050a0032",
-  "sourceMap": "156:1473:1:-;;;564:53;8:9:-1;5:2;;;30:1;27;20:12;5:2;564:53:1;589:24;602:10;589:12;;;:24;;;:::i;:::-;156:1473;;1300:109;1352:22;1366:7;1352:9;:13;;;;;;:22;;;;;:::i;:::-;1397:7;1383:22;;;;;;;;;;;;1300:109;:::o;235:160:7:-;324:1;305:21;;:7;:21;;;;297:30;;;;;;340:18;344:4;350:7;340:3;;;:18;;;:::i;:::-;339:19;331:28;;;;;;387:4;364;:11;;:20;376:7;364:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;235:160;;:::o;693:151::-;768:4;806:1;787:21;;:7;:21;;;;779:30;;;;;;820:4;:11;;:20;832:7;820:20;;;;;;;;;;;;;;;;;;;;;;;;;813:27;;693:151;;;;:::o;156:1473:1:-;;;;;;;",
-  "deployedSourceMap": "156:1473:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;156:1473:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;985:87;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;985:87:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;1138:70;;;:::i;:::-;;825:101;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;825:101:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;985:87;736:22;747:10;736;:22::i;:::-;728:31;;;;;;1047:21;1060:7;1047:12;:21::i;:::-;985:87;:::o;1138:70::-;1177:27;1193:10;1177:15;:27::i;:::-;1138:70::o;825:101::-;883:4;900:22;914:7;900:9;:13;;:22;;;;:::i;:::-;893:29;;825:101;;;:::o;1300:109::-;1352:22;1366:7;1352:9;:13;;:22;;;;:::i;:::-;1397:7;1383:22;;;;;;;;;;;;1300:109;:::o;1510:117::-;1565:25;1582:7;1565:9;:16;;:25;;;;:::i;:::-;1615:7;1599:24;;;;;;;;;;;;1510:117;:::o;693:151:7:-;768:4;806:1;787:21;;:7;:21;;;;779:30;;;;;;820:4;:11;;:20;832:7;820:20;;;;;;;;;;;;;;;;;;;;;;;;;813:27;;693:151;;;;:::o;235:160::-;324:1;305:21;;:7;:21;;;;297:30;;;;;;340:18;344:4;350:7;340:3;:18::i;:::-;339:19;331:28;;;;;;387:4;364;:11;;:20;376:7;364:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;235:160;;:::o;457:163::-;549:1;530:21;;:7;:21;;;;522:30;;;;;;564:18;568:4;574:7;564:3;:18::i;:::-;556:27;;;;;;611:5;588:4;:11;;:20;600:7;588:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;457:163;;:::o",
+  "bytecode": "0x608060405234801561001057600080fd5b506100293361002e640100000000026401000000009004565b61024b565b61004f81600061009564010000000002610299179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156100cf57600080fd5b6100e882826101b9640100000000026401000000009004565b1561015b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4163636f756e7420616c7265616479206578697374730000000000000000000081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614156101f457600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b61048e8061025a6000396000f3fe608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af61012b565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b61011633610136565b61011f57600080fd5b61012881610153565b50565b610134336101ad565b565b600061014c82600061020790919063ffffffff16565b9050919050565b61016781600061029990919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b6101c18160006103ae90919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f09860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561024257600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156102d357600080fd5b6102dd8282610207565b15610350576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4163636f756e7420616c7265616479206578697374730000000000000000000081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156103e857600080fd5b6103f28282610207565b6103fb57600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fea265627a7a72305820b9d4141c082a72a14aad195048eb953d29f56a671b5f5e1c841d9a34c1c104e564736f6c634300050a0032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005e576000357c010000000000000000000000000000000000000000000000000000000090048063112940f91461006357806361e6982d146100a7578063834ff739146100b1575b600080fd5b6100a56004803603602081101561007957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b005b6100af61012b565b005b6100f3600480360360208110156100c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b61011633610136565b61011f57600080fd5b61012881610153565b50565b610134336101ad565b565b600061014c82600061020790919063ffffffff16565b9050919050565b61016781600061029990919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b6101c18160006103ae90919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f09860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561024257600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156102d357600080fd5b6102dd8282610207565b15610350576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4163636f756e7420616c7265616479206578697374730000000000000000000081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156103e857600080fd5b6103f28282610207565b6103fb57600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fea265627a7a72305820b9d4141c082a72a14aad195048eb953d29f56a671b5f5e1c841d9a34c1c104e564736f6c634300050a0032",
+  "sourceMap": "156:1473:1:-;;;564:53;8:9:-1;5:2;;;30:1;27;20:12;5:2;564:53:1;589:24;602:10;589:12;;;:24;;;:::i;:::-;156:1473;;1300:109;1352:22;1366:7;1352:9;:13;;;;;;:22;;;;;:::i;:::-;1397:7;1383:22;;;;;;;;;;;;1300:109;:::o;235:186:7:-;324:1;305:21;;:7;:21;;;;297:30;;;;;;340:18;344:4;350:7;340:3;;;:18;;;:::i;:::-;339:19;331:54;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;413:4;390;:11;;:20;402:7;390:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;235:186;;:::o;719:151::-;794:4;832:1;813:21;;:7;:21;;;;805:30;;;;;;846:4;:11;;:20;858:7;846:20;;;;;;;;;;;;;;;;;;;;;;;;;839:27;;719:151;;;;:::o;156:1473:1:-;;;;;;;",
+  "deployedSourceMap": "156:1473:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;156:1473:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;985:87;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;985:87:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;1138:70;;;:::i;:::-;;825:101;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;825:101:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;985:87;736:22;747:10;736;:22::i;:::-;728:31;;;;;;1047:21;1060:7;1047:12;:21::i;:::-;985:87;:::o;1138:70::-;1177:27;1193:10;1177:15;:27::i;:::-;1138:70::o;825:101::-;883:4;900:22;914:7;900:9;:13;;:22;;;;:::i;:::-;893:29;;825:101;;;:::o;1300:109::-;1352:22;1366:7;1352:9;:13;;:22;;;;:::i;:::-;1397:7;1383:22;;;;;;;;;;;;1300:109;:::o;1510:117::-;1565:25;1582:7;1565:9;:16;;:25;;;;:::i;:::-;1615:7;1599:24;;;;;;;;;;;;1510:117;:::o;719:151:7:-;794:4;832:1;813:21;;:7;:21;;;;805:30;;;;;;846:4;:11;;:20;858:7;846:20;;;;;;;;;;;;;;;;;;;;;;;;;839:27;;719:151;;;;:::o;235:186::-;324:1;305:21;;:7;:21;;;;297:30;;;;;;340:18;344:4;350:7;340:3;:18::i;:::-;339:19;331:54;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;413:4;390;:11;;:20;402:7;390:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;235:186;;:::o;483:163::-;575:1;556:21;;:7;:21;;;;548:30;;;;;;590:18;594:4;600:7;590:3;:18::i;:::-;582:27;;;;;;637:5;614:4;:11;;:20;626:7;614:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;483:163;;:::o",
   "source": "pragma solidity >=0.5.1;\n\n// Import the library 'Roles'\nimport \"./Roles.sol\";\n\n// Define a contract 'ConsumerRole' to manage this role - add, remove, check\ncontract ConsumerRole {\n\tusing Roles for Roles.Role;\n\n\t// Define 2 events, one for Adding, and other for Removing\n\tevent ConsumerAdded(address indexed account);\n\tevent ConsumerRemoved(address indexed account);\n\n\t// Define a struct 'consumers' by inheriting from 'Roles' library, struct Role\n\tRoles.Role private consumers;\n\n\t// In the constructor make the address that deploys this contract the 1st consumer\n\tconstructor() public {\n\t\t_addConsumer(msg.sender);\n\t}\n\n\t// Define a modifier that checks to see if msg.sender has the appropriate role\n\tmodifier onlyConsumer() {\n\t\trequire(isConsumer(msg.sender));\n\t\t_;\n\t}\n\n\t// Define a function 'isConsumer' to check this role\n\tfunction isConsumer(address account) public view returns (bool) {\n\t\treturn consumers.has(account);\n\t}\n\n\t// Define a function 'addConsumer' that adds this role\n\tfunction addConsumer(address account) public onlyConsumer {\n\t\t_addConsumer(account);\n\t}\n\n\t// Define a function 'renounceConsumer' to renounce this role\n\tfunction renounceConsumer() public {\n\t\t_removeConsumer(msg.sender);\n\t}\n\n\t// Define an internal function '_addConsumer' to add this role, called by 'addConsumer'\n\tfunction _addConsumer(address account) internal {\n\t\tconsumers.add(account);\n\t\temit ConsumerAdded(account);\n\t}\n\n\t// Define an internal function '_removeConsumer' to remove this role, called by 'removeConsumer'\n\tfunction _removeConsumer(address account) internal {\n\t\tconsumers.remove(account);\n\t\temit ConsumerRemoved(account);\n\t}\n}\n",
   "sourcePath": "/Users/gregalmeida/Documents/Projetos/udacity/supply-chain/contracts/tunaaccesscontrol/ConsumerRole.sol",
   "ast": {
@@ -113,7 +113,7 @@
         "id": 59,
         "nodeType": "ImportDirective",
         "scope": 160,
-        "sourceUnit": 769,
+        "sourceUnit": 771,
         "src": "56:21:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -138,10 +138,10 @@
               "id": 60,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 768,
+              "referencedDeclaration": 770,
               "src": "187:5:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$768",
+                "typeIdentifier": "t_contract$_Roles_$770",
                 "typeString": "library Roles"
               }
             },
@@ -152,10 +152,10 @@
               "id": 61,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 681,
+              "referencedDeclaration": 682,
               "src": "197:10:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$681_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$682_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -256,7 +256,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$681_storage",
+              "typeIdentifier": "t_struct$_Role_$682_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
@@ -264,10 +264,10 @@
               "id": 71,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 681,
+              "referencedDeclaration": 682,
               "src": "448:10:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$681_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$682_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -292,7 +292,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1725,
+                          "referencedDeclaration": 1762,
                           "src": "602:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -398,7 +398,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1725,
+                              "referencedDeclaration": 1762,
                               "src": "747:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -464,10 +464,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1728,
-                        1729
+                        1765,
+                        1766
                       ],
-                      "referencedDeclaration": 1728,
+                      "referencedDeclaration": 1765,
                       "src": "728:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -552,7 +552,7 @@
                         "referencedDeclaration": 72,
                         "src": "900:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$681_storage",
+                          "typeIdentifier": "t_struct$_Role_$682_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
@@ -563,10 +563,10 @@
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 767,
+                      "referencedDeclaration": 769,
                       "src": "900:13:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$681_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$681_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$682_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$682_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
@@ -824,7 +824,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1725,
+                          "referencedDeclaration": 1762,
                           "src": "1193:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -949,7 +949,7 @@
                         "referencedDeclaration": 72,
                         "src": "1352:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$681_storage",
+                          "typeIdentifier": "t_struct$_Role_$682_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
@@ -960,10 +960,10 @@
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 713,
+                      "referencedDeclaration": 715,
                       "src": "1352:13:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$681_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$681_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$682_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$682_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
@@ -1134,7 +1134,7 @@
                         "referencedDeclaration": 72,
                         "src": "1565:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$681_storage",
+                          "typeIdentifier": "t_struct$_Role_$682_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
@@ -1145,10 +1145,10 @@
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 744,
+                      "referencedDeclaration": 746,
                       "src": "1565:16:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$681_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$681_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$682_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$682_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
@@ -1313,7 +1313,7 @@
         "id": 59,
         "nodeType": "ImportDirective",
         "scope": 160,
-        "sourceUnit": 769,
+        "sourceUnit": 771,
         "src": "56:21:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1338,10 +1338,10 @@
               "id": 60,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 768,
+              "referencedDeclaration": 770,
               "src": "187:5:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$768",
+                "typeIdentifier": "t_contract$_Roles_$770",
                 "typeString": "library Roles"
               }
             },
@@ -1352,10 +1352,10 @@
               "id": 61,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 681,
+              "referencedDeclaration": 682,
               "src": "197:10:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$681_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$682_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -1456,7 +1456,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$681_storage",
+              "typeIdentifier": "t_struct$_Role_$682_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
@@ -1464,10 +1464,10 @@
               "id": 71,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 681,
+              "referencedDeclaration": 682,
               "src": "448:10:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$681_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$682_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -1492,7 +1492,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1725,
+                          "referencedDeclaration": 1762,
                           "src": "602:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1598,7 +1598,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1725,
+                              "referencedDeclaration": 1762,
                               "src": "747:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1664,10 +1664,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1728,
-                        1729
+                        1765,
+                        1766
                       ],
-                      "referencedDeclaration": 1728,
+                      "referencedDeclaration": 1765,
                       "src": "728:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1752,7 +1752,7 @@
                         "referencedDeclaration": 72,
                         "src": "900:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$681_storage",
+                          "typeIdentifier": "t_struct$_Role_$682_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
@@ -1763,10 +1763,10 @@
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 767,
+                      "referencedDeclaration": 769,
                       "src": "900:13:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$681_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$681_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$682_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$682_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
@@ -2024,7 +2024,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1725,
+                          "referencedDeclaration": 1762,
                           "src": "1193:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2149,7 +2149,7 @@
                         "referencedDeclaration": 72,
                         "src": "1352:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$681_storage",
+                          "typeIdentifier": "t_struct$_Role_$682_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
@@ -2160,10 +2160,10 @@
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 713,
+                      "referencedDeclaration": 715,
                       "src": "1352:13:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$681_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$681_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$682_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$682_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
@@ -2334,7 +2334,7 @@
                         "referencedDeclaration": 72,
                         "src": "1565:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$681_storage",
+                          "typeIdentifier": "t_struct$_Role_$682_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
@@ -2345,10 +2345,10 @@
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 744,
+                      "referencedDeclaration": 746,
                       "src": "1565:16:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$681_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$681_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$682_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$682_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
@@ -2508,10 +2508,28 @@
       "links": {},
       "address": "0x23E2b13b08a22E9eEe431F862eC7A17aB1E99B98",
       "transactionHash": "0x5c801c460fd187e7c29efa288d09e396247888c417f62af012484efd35671eb8"
+    },
+    "1562922086849": {
+      "events": {},
+      "links": {},
+      "address": "0xAc657c39c02e0e6974b3aBD4A9425D1c6e849645",
+      "transactionHash": "0x7eace58e5ba5116bcfc967e2d95a3691744361df1f9b90b6307e68c889e998ef"
+    },
+    "1562924977168": {
+      "events": {},
+      "links": {},
+      "address": "0x23E2b13b08a22E9eEe431F862eC7A17aB1E99B98",
+      "transactionHash": "0x313e926e0be05a52358b8a50fb3ad77cc8338b87dfc24265272a698892738a73"
+    },
+    "1562926266026": {
+      "events": {},
+      "links": {},
+      "address": "0x23E2b13b08a22E9eEe431F862eC7A17aB1E99B98",
+      "transactionHash": "0x313e926e0be05a52358b8a50fb3ad77cc8338b87dfc24265272a698892738a73"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-07-11T09:29:32.410Z",
+  "updatedAt": "2019-07-12T10:12:29.677Z",
   "devdoc": {
     "methods": {}
   },

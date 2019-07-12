@@ -20,7 +20,7 @@ contract('SupplyChain', function (accounts) {
 	const processorID = accounts[3];
 	const distributorID = accounts[4];
 	const consumerID = accounts[5];
-	const emptyAddress = '0x00000000000000000000000000000000000000';
+	const emptyAddress = '0x0000000000000000000000000000000000000000';
 
 	///Available Accounts
 	///==================
@@ -251,8 +251,6 @@ contract('SupplyChain', function (accounts) {
 		const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
 		const resultBufferTwo = await supplyChain.fetchItemBufferTwo.call(upc);
 
-		console.log('fish:', resultBufferTwo);
-
 		// Verify the result set
 		assert.equal(resultBufferTwo[5], 6, 'Error: Invalid item State');
 		assert.equal(resultBufferOne[2], consumerID, 'Error: wrong owner account');
@@ -263,24 +261,80 @@ contract('SupplyChain', function (accounts) {
 
 	// 8th Test
 	it('Testing smart contract function fetchItemBufferOne() that allows anyone to fetch item details from blockchain', async () => {
-		const supplyChain = await SupplyChain.deployed()
+		const supplyChain = await SupplyChain.deployed();
 
 		// Retrieve the just now saved item from blockchain by calling function fetchItem()
-
+		const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
 
 		// Verify the result set:
-
+		assert.equal(resultBufferOne[0].toString(), sku, 'Error: Invalid item SKU');
+		assert.equal(resultBufferOne[1], upc, 'Error: Invalid item UPC');
+		assert.equal(resultBufferOne[2], consumerID, 'Error: Missing or Invalid ownerID');
+		assert.equal(resultBufferOne[3], originFisherID, 'Error: Missing or Invalid originFisherID');
+		assert.equal(resultBufferOne[4], originFisherName, 'Error: Missing or Invalid originFisherName');
+		assert.equal(resultBufferOne[5], originFisherInformation, 'Error: Missing or Invalid originFisherInformation');
+		assert.equal(resultBufferOne[6], originFisherLatitude, 'Error: Missing or Invalid originFisherLatitude');
+		assert.equal(resultBufferOne[7], originFisherLongitude, 'Error: Missing or Invalid originFisherLongitude');
 	});
 
 	// 9th Test
 	it('Testing smart contract function fetchItemBufferTwo() that allows anyone to fetch item details from blockchain', async () => {
-		const supplyChain = await SupplyChain.deployed()
+		const supplyChain = await SupplyChain.deployed();
 
 		// Retrieve the just now saved item from blockchain by calling function fetchItem()
-
+		const resultBufferTwo = await supplyChain.fetchItemBufferTwo.call(upc);
 
 		// Verify the result set:
+		assert.equal(resultBufferTwo[0].toString(), sku, 'Error: Invalid item SKU');
+		assert.equal(resultBufferTwo[1], upc, 'Error: Invalid item UPC');
+		assert.equal(resultBufferTwo[2], productID, 'Error: Missing or Invalid productID');
+		assert.equal(resultBufferTwo[3], productNotes, 'Error: Missing or Invalid productNotes');
+		assert.equal(resultBufferTwo[4], productPrice, 'Error: Missing or Invalid productPrice');
+		assert.equal(resultBufferTwo[5], 6, 'Error: Invalid item State');
+		assert.equal(resultBufferTwo[6], distributorID, 'Error: Missing or Invalid distributorID');
+		assert.equal(resultBufferTwo[7], consumerID, 'Error: Missing or Invalid consumerID');
+		assert.equal(resultBufferTwo[8], regulatorID, 'Error: Missing or Invalid regulatorID');
+		assert.equal(resultBufferTwo[9], processorID, 'Error: Missing or Invalid processorID');
+	});
 
+	// 10th Test
+	it('Testing smart contract function transferOwnership() that allows owner to transfer contract ownership', async () => {
+		const supplyChain = await SupplyChain.deployed();
+
+		let eventEmitted = false;
+
+		supplyChain.TransferOwnership(()=>{
+			eventEmitted = true;
+		});
+
+		await supplyChain.transferOwnership(originFisherID);
+
+		// Retrieve the current owner
+		const owner = await supplyChain.getOwner();
+
+		// Verify the result set:
+		assert.equal(owner, originFisherID, 'Error: Invalid Owner address');
+		assert.equal(eventEmitted, true, 'Invalid event emitted');
+	});
+
+	// 11th Test
+	it('Testing smart contract function renounceOwnership() that allows owner to renounce contract ownership', async () => {
+		const supplyChain = await SupplyChain.deployed();
+
+		let eventEmitted = false;
+
+		supplyChain.TransferOwnership(()=>{
+			eventEmitted = true;
+		});
+
+		await supplyChain.renounceOwnership();
+
+		// Retrieve the current owner
+		const owner = await supplyChain.getOwner();
+
+		// Verify the result set:
+		assert.equal(owner, emptyAddress, 'Error: Invalid Owner address');
+		assert.equal(eventEmitted, true, 'Invalid event emitted');
 	});
 
 });

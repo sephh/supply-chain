@@ -5,9 +5,10 @@ import "../tunaaccesscontrol/RegulatorRole.sol";
 import "../tunaaccesscontrol/ProcessorRole.sol";
 import "../tunaaccesscontrol/DistributorRole.sol";
 import "../tunaaccesscontrol/ConsumerRole.sol";
+import "../tunacore/Ownable.sol";
 
 // Define a contract 'Supplychain'
-contract SupplyChain is FisherRole, RegulatorRole, ProcessorRole, DistributorRole, ConsumerRole {
+contract SupplyChain is Ownable, FisherRole, RegulatorRole, ProcessorRole, DistributorRole, ConsumerRole {
 
 	// Define 'owner'
 	address payable owner;
