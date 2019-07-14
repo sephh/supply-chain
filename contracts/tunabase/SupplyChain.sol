@@ -79,7 +79,7 @@ contract SupplyChain is Ownable, FisherRole, RegulatorRole, ProcessorRole, Distr
 	}
 
 	modifier verifyUpc(uint _upc) {
-		require(items[_upc].upc != _upc);
+		require(items[_upc].upc != _upc, 'This fish already exists.');
 		_;
 	}
 

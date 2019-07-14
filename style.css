@@ -64,3 +64,13 @@ button {
 .horizontal-rule {
   background-color:#BDBDBD;
 }
+
+.add-container{
+    display: flex;
+    align-items: center;
+}
+
+.add-container button{
+    height: 43px;
+    background-color: #4CAF50;
+}

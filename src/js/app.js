@@ -201,12 +201,16 @@ App = {
 			case 10:
 				return await App.fetchItemBufferTwo(event);
 				break;
+			case 11:
+				return await App.addFisher(event);
+				break;
 		}
 	},
 
 	catchFish: function (event) {
 		event.preventDefault();
 		var processId = parseInt($(event.target).data('id'));
+		App.readForm();
 
 		App.contracts.SupplyChain.deployed().then(function (instance) {
 			return instance.catchFish(
@@ -217,7 +221,7 @@ App = {
 				App.originFishLatitude,
 				App.originFishLongitude,
 				App.productNotes
-			);
+				, { from: App.metamaskAccountID });
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('catchFish', result);
@@ -322,6 +326,20 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('fetchItemBufferTwo', result);
+		}).catch(errorHandler);
+	},
+
+	addFisher: function (event) {
+		event.preventDefault();
+		const fisherInputValue = $('#originFisherID').val();
+		console.log('fisher ID: ', fisherInputValue);
+
+		App.contracts.SupplyChain.deployed().then(function (instance) {
+			const walletValue = web3.toWei(3, 'ether');
+			return instance.addFisher(fisherInputValue, { from: App.metamaskAccountID });
+		}).then(function (result) {
+			$('#ftc-item').text(result);
+			console.log('buyItem', result);
 		}).catch(errorHandler);
 	},
 
