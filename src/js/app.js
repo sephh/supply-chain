@@ -204,6 +204,18 @@ App = {
 			case 11:
 				return await App.addFisher(event);
 				break;
+			case 12:
+				return await App.addRegulator(event);
+				break;
+			case 13:
+				return await App.addProcessor(event);
+				break;
+			case 14:
+				return await App.addDistributor(event);
+				break;
+			case 15:
+				return await App.addConsumer(event);
+				break;
 		}
 	},
 
@@ -339,7 +351,63 @@ App = {
 			return instance.addFisher(fisherInputValue, { from: App.metamaskAccountID });
 		}).then(function (result) {
 			$('#ftc-item').text(result);
-			console.log('buyItem', result);
+			console.log('addFisher', result);
+		}).catch(errorHandler);
+	},
+
+	addRegulator: function (event) {
+		event.preventDefault();
+		const regulatorInputValue = $('#regulatorID').val();
+		console.log('fisher ID: ', regulatorInputValue);
+
+		App.contracts.SupplyChain.deployed().then(function (instance) {
+			const walletValue = web3.toWei(3, 'ether');
+			return instance.addRegulator(regulatorInputValue, { from: App.metamaskAccountID });
+		}).then(function (result) {
+			$('#ftc-item').text(result);
+			console.log('addRegulator', result);
+		}).catch(errorHandler);
+	},
+
+	addProcessor: function (event) {
+		event.preventDefault();
+		const processorInputValue = $('#processorID').val();
+		console.log('fisher ID: ', processorInputValue);
+
+		App.contracts.SupplyChain.deployed().then(function (instance) {
+			const walletValue = web3.toWei(3, 'ether');
+			return instance.addProcessor(processorInputValue, { from: App.metamaskAccountID });
+		}).then(function (result) {
+			$('#ftc-item').text(result);
+			console.log('addProcessor', result);
+		}).catch(errorHandler);
+	},
+
+	addDistributor: function (event) {
+		event.preventDefault();
+		const distributorInputValue = $('#distributorID').val();
+		console.log('fisher ID: ', distributorInputValue);
+
+		App.contracts.SupplyChain.deployed().then(function (instance) {
+			const walletValue = web3.toWei(3, 'ether');
+			return instance.addDistributor(distributorInputValue, { from: App.metamaskAccountID });
+		}).then(function (result) {
+			$('#ftc-item').text(result);
+			console.log('addDistributor', result);
+		}).catch(errorHandler);
+	},
+
+	addConsumer: function (event) {
+		event.preventDefault();
+		const consumerInputValue = $('#consumerID').val();
+		console.log('fisher ID: ', consumerInputValue);
+
+		App.contracts.SupplyChain.deployed().then(function (instance) {
+			const walletValue = web3.toWei(3, 'ether');
+			return instance.addConsumer(consumerInputValue, { from: App.metamaskAccountID });
+		}).then(function (result) {
+			$('#ftc-item').text(result);
+			console.log('addConsumer', result);
 		}).catch(errorHandler);
 	},
 

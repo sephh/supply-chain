@@ -235,10 +235,10 @@ contract SupplyChain is Ownable, FisherRole, RegulatorRole, ProcessorRole, Distr
 
 	}
 
-	// Define a function 'buyItem' that allows the disributor to mark an item 'Sold'
+	// Define a function 'buyItem' that allows the consumer to mark an item 'Sold'
 	// Use the above defined modifiers to check if the item is available for sale, if the buyer has paid enough,
 	// and any excess ether sent is refunded back to the buyer
-	function buyItem(uint _upc) forSale(_upc) paidEnough(items[_upc].productPrice) checkValue(_upc) public payable {
+	function buyItem(uint _upc) forSale(_upc) paidEnough(items[_upc].productPrice) checkValue(_upc) onlyConsumer() public payable {
 		address payable consumer = msg.sender;
 		uint price = items[_upc].productPrice;
 
