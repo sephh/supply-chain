@@ -74,7 +74,7 @@ contract SupplyChain is Ownable, FisherRole, RegulatorRole, ProcessorRole, Distr
 
 	// Define a modifer that checks to see if msg.sender == owner of the contract
 	modifier onlyOwner() {
-		require(msg.sender == owner);
+		require(msg.sender == owner, 'You need to be a owner to perform this action.');
 		_;
 	}
 
@@ -85,7 +85,7 @@ contract SupplyChain is Ownable, FisherRole, RegulatorRole, ProcessorRole, Distr
 
 	// Define a modifer that verifies the Caller
 	modifier verifyCaller (address _address) {
-		require(msg.sender == _address);
+		require(msg.sender == _address, 'Invalid Caller.');
 		_;
 	}
 

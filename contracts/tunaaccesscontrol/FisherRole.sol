@@ -21,7 +21,7 @@ contract FisherRole {
 
 	// Define a modifier that checks to see if msg.sender has the appropriate role
 	modifier onlyFisher() {
-		require(isFisher(msg.sender));
+		require(isFisher(msg.sender), 'You need to be a fisher to perform this action.');
 		_;
 	}
 

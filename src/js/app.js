@@ -1,3 +1,45 @@
+const BASE_ERROR = 'Error: VM Exception while processing transaction: revert ';
+const BASE_ERROR_LENGTH = BASE_ERROR.length;
+
+function errorHandler(error) {
+	if (!error || !error.message) {
+		new Noty({
+			theme: 'nest',
+			type: 'error',
+			timeout: 3500,
+			layout: 'bottomRight',
+			text: 'Unknown Error.'
+		}).show();
+
+		return;
+	}
+
+	const errorMessage = error.message;
+	const start = errorMessage.indexOf(BASE_ERROR) + BASE_ERROR_LENGTH;
+	const end = errorMessage.length;
+	const msgToShow = errorMessage.substr(start, end);
+
+	if (msgToShow.length) {
+		new Noty({
+			theme: 'nest',
+			type: 'error',
+			timeout: 3500,
+			layout: 'bottomRight',
+			text: msgToShow
+		}).show();
+
+		return;
+	}
+
+	new Noty({
+		theme: 'nest',
+		type: 'error',
+		timeout: 3500,
+		layout: 'bottomRight',
+		text: 'Unknown Error.'
+	}).show();
+}
+
 App = {
 	web3Provider: null,
 	contracts: {},
@@ -179,9 +221,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('catchFish', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	approve: function (event) {
@@ -193,9 +233,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('approve', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	landFish: function (event) {
@@ -207,9 +245,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('landFish', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	processFish: function (event) {
@@ -221,9 +257,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('processFish', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	packFish: function (event) {
@@ -235,9 +269,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('packFish', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	sellFish: function (event) {
@@ -251,9 +283,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('sellFish', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	buyItem: function (event) {
@@ -266,9 +296,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('buyItem', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	fetchItemBufferOne: function () {
@@ -282,9 +310,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('fetchItemBufferOne', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	fetchItemBufferTwo: function () {
@@ -296,9 +322,7 @@ App = {
 		}).then(function (result) {
 			$('#ftc-item').text(result);
 			console.log('fetchItemBufferTwo', result);
-		}).catch(function (err) {
-			console.log(err.message);
-		});
+		}).catch(errorHandler);
 	},
 
 	fetchEvents: function () {
