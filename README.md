@@ -3,6 +3,7 @@
 This is Project 5, SupplyChain Dapp, in this project I created a Dapp using truffle and Solidity.
 
 The contract address on the Rinkeby is 0x01E287e35F5a96ABee31AA00ED8072b3eE99C8b9.
+The transaction hash 0x1ba1758768d9eb9616bf7dfa8c03c7cf3c3e338a0cbc50828b70ac9361b25165
 The lib noty was used to show messages to user
 Program version 1.0.0
 Node version 10.13.0
