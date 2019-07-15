@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "lite-server",
 		"ganache-start": "ganache-cli -m \"spirit supply whale amount human item harsh scare congress discover talent hamster\"",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy-rinkeby": "truffle migrate --network rinkeby"
 	},
 	"keywords": [],
 	"author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
@@ -15,6 +16,7 @@
 		"lite-server": "2.4.0"
 	},
 	"dependencies": {
-		"noty": "^3.2.0-beta"
+		"noty": "^3.2.0-beta",
+		"truffle-hdwallet-provider": "^1.0.14"
 	}
 }
